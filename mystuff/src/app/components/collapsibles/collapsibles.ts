@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Business } from '../../service/business';
 
 @Component({
   selector: 'app-collapsibles',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './collapsibles.scss',
 })
 export class Collapsibles {
+  public readonly business = inject(Business)
 
 }
