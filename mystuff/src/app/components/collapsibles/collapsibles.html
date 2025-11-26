@@ -5,10 +5,13 @@
     <div class="collapsible-body">
       <em>{{col.short}}</em>
       <p>{{col.long}}</p>
-      @for (link of col.links; track $index) {
-        <a href="{{link}}">{{link.text}}</a>
+      <div class="row flex-spaces child-borders buttonstrip">
+        @for (link of col.links; track $index) {
+        <a href="{{link}}" class="paper-btn">{{link.text}}</a>
         <br>
       }
+      </div>
+      
     </div>
   </div>
 }
