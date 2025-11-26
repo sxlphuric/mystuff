@@ -7,6 +7,28 @@ import { StuffCategory } from '../classes/stuff-category';
 export class Business {
   Categories: StuffCategory[] = [
     new StuffCategory(
+      "Social",
+      "These are links to some of my social handles.",
+      "",
+      [
+        {
+          link: "https://github.com/sxlphuric",
+          text: "Github"
+        },
+        {
+          link: "https://tiktok.com/@sxlphuric",
+          text: "Tiktok"
+        },
+        {
+          link: "https://bento.me/@sxlphuric",
+          text: "Bento"
+        },
+        {
+          link: "https://discord.com/users/803002209934508082",
+          text: "Discord"
+        },
+      ]),
+    new StuffCategory(
       "Unblocking",
       "I host a few unblocking stuff. Here are the links.",
       "",
