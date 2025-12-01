@@ -35,8 +35,12 @@ export class Business {
       [
         {
           link: "https://seminaire-sherbrooke.v6.rocks",
-          text: "Séminaire-Sherbrooke.V6.ROCKS"
-        }
+          text: "UB Metadomain"
+        },
+        {
+          link: "https://snake.phuri.cc",
+          text: "Google Snake Mods Instance"
+        },
       ]),
       new StuffCategory(
       "Self-hosted",
