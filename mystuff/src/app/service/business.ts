@@ -49,7 +49,7 @@ export class Business {
       [
         {
           link: "https://windows.phuri.cc",
-          text: "Windows VM"
+          text: "Windows VM (Not in service)"
         },
         {
           link: "https://copyparty.phuri.cc",
