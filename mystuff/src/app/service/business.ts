@@ -20,7 +20,7 @@ export class Business {
           text: "Tiktok"
         },
         {
-          link: "https://bento.me/@sxlphuric",
+          link: "https://bento.me/sxlphuric",
           text: "Bento"
         },
         {
