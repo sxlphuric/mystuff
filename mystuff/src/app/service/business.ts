@@ -56,5 +56,29 @@ export class Business {
           text: "Copyparty"
         },
       ]),
+    new StuffCategory(
+      "Unblocking",
+      "I host a few unblocking stuff. Here are the links.",
+      "",
+      [
+        {
+          link: "https://seminaire-sherbrooke.v6.rocks",
+          text: "UB Metadomain"
+        },
+        {
+          link: "https://snake.phuri.cc",
+          text: "Google Snake Mods Instance"
+        },
+      ]),
+    new StuffCategory(
+      "Random stuff",
+      "I put random bs here",
+      "Warning: If you enable pop-ups on the 'Mangoes' website, it WILL spawn multiple windows of google searches of mangoes.",
+      [
+        {
+          link: "https://mangos.phuri.cc",
+          text: "Mangoes"
+        },
+      ]),
   ]
 }
