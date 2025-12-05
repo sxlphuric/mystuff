@@ -66,5 +66,15 @@ export class Business {
           text: "Mangoes"
         },
       ]),
+    new StuffCategory(
+      "Projects",
+      "Here are some personal projects.",
+      "",
+      [
+        {
+          link: "https://timetable.phuri.cc",
+          text: "School timetable"
+        },
+      ]),
   ]
 }
