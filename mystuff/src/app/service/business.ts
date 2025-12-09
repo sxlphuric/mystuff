@@ -70,10 +70,35 @@ export class Business {
       "Projects",
       "Here are some personal projects.",
       "",
+      
       [
         {
           link: "https://timetable.phuri.cc",
           text: "School timetable"
+        },
+      ]),
+      [
+        {
+          link: "https://cars-test.projects.phuri.cc",
+          text: "People and cars"
+        },
+      ]),
+      [
+        {
+          link: "https://number-guess.phuri.cc",
+          text: "Number guess"
+        },
+      ]),
+      [
+        {
+          link: "https://food-test.phuri.cc",
+          text: "Food information"
+        },
+      ]),
+      [
+        {
+          link: "https://oldwebsite.phuri.cc",
+          text: "My 'old' website"
         },
       ]),
   ]
