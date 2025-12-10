@@ -42,7 +42,7 @@ export class Business {
           text: "Google Snake Mods Instance"
         },
       ]),
-      new StuffCategory(
+    new StuffCategory(
       "Self-hosted",
       "Here are some few things I host on my computer.",
       "",
@@ -70,7 +70,6 @@ export class Business {
       "Projects",
       "Here are some personal projects.",
       "",
-      
       [
         {
           link: "https://timetable.phuri.cc",
@@ -92,6 +91,6 @@ export class Business {
           link: "https://oldwebsite.phuri.cc",
           text: "My 'old' website"
         },
-      ],
+      ])
   ]
 }
