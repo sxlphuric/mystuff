@@ -80,15 +80,15 @@ export class Business {
           text: "People and cars"
         },
         {
-          link: "https://number-guess.phuri.cc",
+          link: "https://number-guess.projects.phuri.cc",
           text: "Number guess"
         },
         {
-          link: "https://food-test.phuri.cc",
+          link: "https://food-test.projects.phuri.cc",
           text: "Food information"
         },
         {
-          link: "https://oldwebsite.phuri.cc",
+          link: "https://oldwebsite.projects.phuri.cc",
           text: "My 'old' website"
         },
       ])
