@@ -38,8 +38,38 @@ export class Business {
           text: "UB Metadomain"
         },
         {
-          link: "https://snake.phuri.cc",
-          text: "Google Snake Mods Instance"
+          link: "https://neo.ub.phuri.cc",
+          text: "Neo"
+        },
+        {
+          link: "https://galaxy.ub.phuri.cc",
+          text: "GalaxyOS"
+        },
+        {
+          link: "https://waves.ub.phuri.cc",
+          text: "Waves"
+        },
+        {
+          link: "https://afilite.ub.phuri.cc",
+          text: "AfiliteOS"
+        },
+      ]),
+    new StuffCategory(
+      "Games",
+      "Here are a few games.",
+      "",
+      [
+        {
+          link: "https://sandboxels.ubg.phuri.cc",
+          text: "Sandboxels"
+        },
+        {
+          link: "https://snake.ubg.phuri.cc",
+          text: "Google Snake Mods"
+        },
+        {
+          link: "https://pixel12.ubg.phuri.cc",
+          text: "Pixel Client 1.12.2"
         },
       ]),
     new StuffCategory(
@@ -90,6 +120,14 @@ export class Business {
         {
           link: "https://oldwebsite.projects.phuri.cc",
           text: "My 'old' website"
+        },
+        {
+          link: "https://adrouter.projects.phuri.cc",
+          text: "Adrouter"
+        },
+        {
+          link: "https://burstnews.projects.phuri.cc",
+          text: "BURST news"
         },
       ])
   ]
