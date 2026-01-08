@@ -1,0 +1,7 @@
+
+<div class="row flex-edges flex-spaces child-borders main">
+        @for (subdomain of business.Subdomains; track $index) {
+        <a href="{{subdomain.link}}" class="paper-btn">{{subdomain.text}}</a>
+        <br>
+        }
+</div>

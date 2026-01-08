@@ -1,10 +1,22 @@
 import { Injectable } from '@angular/core';
 import { StuffCategory } from '../classes/stuff-category';
+import type { Link } from '../classes/link';
 
 @Injectable({
   providedIn: 'root',
 })
 export class Business {
+  Subdomains: Link[] = [
+    { link: "https://projects.phuri.cc",
+      text: "Projects"
+    },
+    { link: "https://ub.phuri.cc",
+      text: "Unblocking"
+    },
+    { link: "https://ubg.phuri.cc",
+      text: "Games"
+    },
+  ]
   Categories: StuffCategory[] = [
     new StuffCategory(
       "Social",

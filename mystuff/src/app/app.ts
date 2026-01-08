@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { Collapsibles } from './components/collapsibles/collapsibles';
+import { Subdomains } from './components/subdomains/subdomains';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Collapsibles],
+  imports: [Collapsibles, Subdomains],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
