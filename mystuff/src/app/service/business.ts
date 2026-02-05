@@ -10,12 +10,12 @@ export class Business {
     { link: "https://projects.phuri.cc",
       text: "Projects"
     },
-    { link: "https://ub.phuri.cc",
+    /*{ link: "https://ub.phuri.cc",
       text: "Unblocking"
     },
     { link: "https://ubg.phuri.cc",
       text: "Games"
-    },
+    },*/
   ]
   Categories: StuffCategory[] = [
     new StuffCategory(
@@ -40,7 +40,7 @@ export class Business {
           text: "Discord"
         },
       ]),
-    new StuffCategory(
+    /*new StuffCategory(
       "Unblocking",
       "I host a few unblocking stuff. Here are the links.",
       "",
@@ -83,7 +83,7 @@ export class Business {
           link: "https://pixel12.ubg.phuri.cc",
           text: "Pixel Client 1.12.2"
         },
-      ]),
+      ]),*/
     new StuffCategory(
       "Self-hosted",
       "Here are some few things I host on my computer.",
@@ -94,7 +94,7 @@ export class Business {
           text: "Windows VM (Not in service)"
         },
       ]),
-    new StuffCategory(
+    /*new StuffCategory(
       "Random stuff",
       "I put random bs here",
       "Warning: If you enable pop-ups on the 'Mangoes' website, it WILL spawn multiple windows of google searches of mangoes.",
@@ -103,7 +103,7 @@ export class Business {
           link: "https://mangos.phuri.cc",
           text: "Mangoes"
         },
-      ]),
+      ]),*/
     new StuffCategory(
       "Projects",
       "Here are some personal projects.",
