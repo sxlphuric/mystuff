@@ -89,7 +89,7 @@ export class Business {
           text: "Pixel Client 1.12.2"
         },
       ]),*/
-    new StuffCategory(
+    /*new StuffCategory(
       "Self-hosted",
       "Here are some few things I host on my computer.",
       "",
@@ -98,7 +98,7 @@ export class Business {
           link: "https://windows.phuri.cc",
           text: "Windows VM (Not in service)"
         },
-      ]),
+      ]),*/
     /*new StuffCategory(
       "Random stuff",
       "I put random bs here",
