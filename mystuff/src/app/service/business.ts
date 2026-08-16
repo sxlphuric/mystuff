@@ -16,6 +16,11 @@ export class Business {
     { link: "https://ubg.phuri.cc",
       text: "Games"
     },*/
+    //  i really don't give a fuck about putting this in the "subdomains" category i do what i want
+    {
+      link: "https://github.com/sxlphuric/frosty",
+      text: "NixOS Configuration"
+    },
   ]
   Categories: StuffCategory[] = [
     new StuffCategory(
